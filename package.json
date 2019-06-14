@@ -1,0 +1,46 @@
+{
+  "name": "tarea3",
+  "version": "0.1.0",
+  "engines": {
+    "node": "12.3.1"
+  },
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.0.2",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.2",
+    "apollo-link-http": "^1.5.14",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "graphql": "^14.3.1",
+    "graphql-tag": "^2.10.1",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
